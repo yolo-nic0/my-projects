@@ -1,0 +1,119 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background: url(assets/abstract-3494067.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.box{
+    position: relative;
+    top: 5%;
+    left: 10%;
+    display: flex;
+    width: 80%;
+    height: 90%;
+    -webkit-backdrop-filter: blur(3rem);
+    backdrop-filter: blur(3rem);
+    border-radius: 2rem;
+    border: 1rem;
+}
+#part1{
+    position: relative;
+    width: 40%;
+    height: 100%;
+    background: url(assets/Version\ control-pana.svg);
+    background-position: center;
+    background-size: cover;
+    padding: 2%;
+    color: #ffff;
+}
+#part1 h1{
+    position: absolute;
+    bottom:  .5rem;
+    width: 100%;
+    height: 3rem;
+}
+#part1 .image{
+    width: 2rem;
+}
+#part2{
+    width: calc(100% - 40%);
+    height: 100%;
+    color: #000;
+    padding: 3%;
+    overflow: hidden;
+    overflow-y: auto;
+}
+#part2 .middle{
+    margin: 2rem 0;
+}
+#part2 .middle h1{
+    margin-bottom: 1rem;
+}
+#part2 h3{
+    margin-bottom: 1rem;
+}
+#part2 .middle form input{
+    margin: 1rem;
+    font-size: 1rem;
+    height: 2rem;
+    width: 15rem;
+    border: 0;
+    padding: 0 .5rem;
+    outline: none;
+    background: transparent;
+    border-bottom: .2rem solid #fff;
+
+}
+
+/* #part2 .middle form input:invalid{
+    border-bottom: .2rem solid red;
+} */
+#part2 .middle form input:valid{
+    border-bottom: .2rem solid green;
+}
+/* #part2 .middle form input:empty{
+    border-bottom: .2rem solid whitesmoke;
+} */
+
+#part2 .middle form input:focus{
+    border-bottom: .2rem solid #fff;
+}
+#part2 .middle form input ::placeholder{
+    font-size: .7rem;
+}
+button{
+    height: 2rem;
+    width: 10rem;
+    margin-left: 10%;
+    margin-bottom: 1rem;
+    border-radius: .5rem;
+    background-color: #000;
+    font-size: 1rem;
+    color: #fff;
+    border: 0;
+}
+button:hover{
+    background-color: #fff;
+    color: #000;
+    transition: .7s;
+}
+#part2 p{
+    margin-left: 5%;
+}
+#part2 p a{
+    text-decoration: none;
+    color: #000;
+    transition: .5s;
+}
+#part2 p a:hover{
+    color: rgb(0, 255, 42);
+}
+/* #part2 .middle form input:focus ~ ::placeholder{
+    transform: translateY(1rem);
+} */
