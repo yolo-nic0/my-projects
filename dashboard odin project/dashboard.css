@@ -1,0 +1,370 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    overflow: auto;
+}
+#sidemenu{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 13rem;
+    height: 100vh;
+    background-color: #cbd5e1;
+    display: grid;
+    padding-left: 2rem;
+    padding-top: 1rem;
+}
+#Content{
+    position: absolute;
+    top: 0;
+    left: 13rem;
+    width: calc(100% - 13rem);
+    height: 100vh;
+    background-color: #cbd5e1;
+    padding: 1.5rem 0;
+    overflow: hidden;
+}
+/* side menu design */
+#sidemenu .logo a {
+    text-decoration: none;
+    color: black;
+    display: flex;
+}
+#sidemenu .logo a img{
+    width: 2rem;
+    margin-right: .7rem;
+}
+#sidemenu .logo a h1{
+    padding-top: 1rem;
+}
+.menu ul li a, .extramenu ul li a{
+    text-decoration: none;
+    color: black;
+    display: flex;
+    margin-bottom: .7rem;
+}
+.menu ul li, .extramenu ul li{
+    list-style: none;
+}
+.menu ul li a h3:hover, .extramenu ul li a h3:hover{
+    color: black;
+}
+.menu ul li a img, .extramenu ul li a img{
+    width: 1.7rem;
+}
+.menu ul li a h3, .extramenu ul li a h3{
+    padding-left: 1rem;
+    color: #334155;
+}
+/* content design */
+.navstation{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.navstation .rightpart input{
+    width: 30rem;
+    height: 1.9rem;
+    border: o;
+    background-color: #d1d5db;
+    border-color: #fff;
+    border-radius: 2rem;
+    margin-left: 2rem;
+    /* box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset; */
+}
+.navstation .rightpart a img{
+    width: 2.5rem;
+    margin-left: 3rem;
+}
+.pic{
+    border-radius: 50%;
+    width: 3.2rem;
+    height: 3.2rem;
+    border: .2rem solid rgb(255, 238, 0);
+    transition: .5s;
+}
+.pic1{
+    border-radius: 50%;
+    width: 4.2rem;
+    height: 4.2rem;
+    border: .2rem solid rgb(255, 238, 0);
+    transition: .5s;
+}
+.pic1:hover{
+    border: .2rem solid rgb(255, 153, 0);
+}
+.pic:hover{
+    border: .2rem solid rgb(255, 153, 0);
+}
+
+.navstation .leftpart{
+    display: flex;
+    width: 20rem;
+}
+.navstation .leftpart .bell{
+    width: 2.5rem;
+    margin-right: 1rem;
+}
+.navstation .leftpart .bell:hover{
+    transform: translateY(-.3rem);
+}
+.navstation .leftpart h3{
+    margin-left: 1rem;
+    padding-top: .7rem;
+}
+.navmovement{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+.navmovement .navmov {
+    display: flex;
+    margin-left: 2rem;
+}
+.navmovement .navmov .text{
+    margin-left: 1rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding-top: .5rem;
+}
+.navmovement .navmov .text p{
+    font-weight: 400;
+    font-size: 1rem;
+}
+.navmovement .btns{
+    padding-top: 1.5rem;
+    margin-right: 2rem;
+}
+.navmovement .btns .btn{
+    margin-left: 3rem;
+    width: 6.5rem;
+    height: 2rem;
+    border-radius: 1.3rem;
+    border-color: white;
+    background-color: white;
+    font-size: 1rem;
+    font-weight: 700;
+    transition: .7s;
+}
+.navmovement .btns .btn:hover{
+    background-color: black;
+    color: white;
+}
+/* designing the project sectin along with the notice section */
+.projects{
+    position: relative;
+    width: 100%;
+    height: calc(100vh - 25%);
+    background-color: #cbd5e1;
+}
+.projects .box{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    padding-left: 1rem;
+}
+.projects .box .cards{
+    width: 20rem;
+    position: relative;
+    margin: 1rem;
+    height: 14rem;
+    background: white;
+    overflow: hidden;
+    border-style: ridge;
+    border-radius: 1rem;
+}
+.projects .box #pin1{
+    background: url(assets/joshua-sortino-71vAb1FXB6g-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    transition: .3s;
+}
+.projects .box #pin2{
+    background: url(assets/joshua-sortino-71vAb1FXB6g-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    transition: .3s;
+}
+.projects .box #pin3{
+    background: url(assets/joshua-sortino-71vAb1FXB6g-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    transition: .3s;
+}
+.projects .box #pin4{
+    background: url(assets/joshua-sortino-71vAb1FXB6g-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    transition: .3s;
+}
+.projects .box #pin5{
+    background: url(assets/joshua-sortino-71vAb1FXB6g-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    transition: .3s;
+}
+.projects .box #pin6{
+    background: url(assets/joshua-sortino-71vAb1FXB6g-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    transition: .3s;
+}
+.projects .box #pin7{
+    background: url(assets/joshua-sortino-71vAb1FXB6g-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    transition: .3s;
+}
+.projects .box #pin8{
+    background: url(assets/joshua-sortino-71vAb1FXB6g-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    transition: .3s;
+}
+.projects .box #pin9{
+    background: url(assets/joshua-sortino-71vAb1FXB6g-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    transition: .3s;
+}
+.projects .box #pin10{
+    background: url(assets/joshua-sortino-71vAb1FXB6g-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    transition: .3s;
+}
+.projects .box #pin11{
+    background: url(assets/joshua-sortino-71vAb1FXB6g-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    transition: .3s;
+}
+
+
+
+.projects .box .cards:hover .pop{
+    bottom: 0;
+    transition: .5s ease-in-out;
+    padding-top: 4rem;
+}
+.projects .box .cards:hover{
+    background: linear-gradient(rgba(0, 0, 0, .3), transparent), url(assets/Screenshot\ 2023-08-13\ 111508.png);
+}
+.projects .box .cards .pop{
+    position: absolute;
+    width: 100%;
+    padding: .7rem;
+    height: 100%;
+    background: linear-gradient(transparent, transparent, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+    position: absolute;
+    bottom: -80%;
+    transition: .5s ease-in-out;
+    color: white;
+}
+.projects .box .cards .pop .sup{
+    width: 100%;
+    padding-left: 4rem;
+}
+/* .changeColor{
+    fill: white;
+    color: white;
+} */
+.projects .box .cards .pop a img{
+    width: 4rem;
+    padding-top: .3rem;
+    padding-left: 1.5rem;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+}
+.projects .box .cards .pop h1{
+    margin-bottom: .5rem;
+}
+.projects .box .mtp{
+    width: 100%;
+}
+.projects .anno, .trend h1{
+    padding-top: 1rem;
+    margin-bottom: 1rem;
+}
+.projects  .anno, .trend{
+    position: relative;
+    width: 35rem;
+    margin: 1rem;
+    height: 14rem;
+    margin-left: 1rem;
+    background-color: white;
+    border-style: ridge;
+    border-radius: 1rem;
+    padding: 1rem;
+    background: #cbd5e1;
+}
+.projects .trend .tex{
+    width: 6rem;
+    height: 2rem;
+    position: absolute;
+    top: -1rem;
+    margin-left: 2rem;
+    background: #cbd5e1;
+    padding: 0 1rem;
+    border-left: .2rem solid #cbd5e1;
+    border-right: .2rem solid #cbd5e1;
+
+}
+.projects .anno:hover .tex, .trend:hover .tex{
+    border-left: solid green;
+    border-right: solid green;
+}
+.projects .anno .tex{
+    width: 11rem;
+    height: 2rem;
+    position: absolute;
+    top: -1rem;
+    margin-left: 2rem;
+    background: #cbd5e1;
+    padding: 0 1rem;
+    border-left: .2rem solid #cbd5e1;
+    border-right: .2rem solid #cbd5e1;
+}
+.projects .anno .tex h1{
+    position: absolute;
+    top: 0rem;
+}
+.projects .trend .tex h1{
+    position: absolute;
+    top: -1rem;
+}
+.projects .anno .textanno1{
+    margin-top: .5rem;
+    overflow: hidden;
+}
+.projects .trend .man{
+    display: flex;
+    width: 15rem;
+    height: 4rem;
+    margin: .5rem;
+}
+.projects .trend .man img{
+    width: 4rem;
+    border-radius: 50%;
+    margin-right: 1rem;
+}
+.projects .trend .man .pro{
+    margin-top: .6rem;
+}
+.projects .trend .wrap{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 16rem 16rem;
+    overflow-y: auto;
+    overflow-x: hidden;
+    margin-top: 1rem;
+}
