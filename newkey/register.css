@@ -1,0 +1,196 @@
+@import url(https://fonts.googleapis.com/css?family=Lily+Script+One);
+
+body {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  font-family: arial, tahoma, sans-serif;
+  font-size: 12px;
+  font-weight: normal;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  background: white;
+  background: url(img/joshua-sortino-71vAb1FXB6g-unsplash.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.whole{
+  width: 40rem;
+  height: 30rem;
+  padding: 1rem;
+  backdrop-filter: blur(5rem);
+  display: flex;
+  flex-wrap: wrap;
+  box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 2rem;
+}
+form{
+  height: 100%;
+  width: 100%;
+  padding-left: 5%;
+  position: relative;
+}
+
+.wrap{
+  margin-top: 2rem;
+}
+.logo{
+  margin-top: 1rem;
+}
+.input-wrap{
+  margin-top: 1rem;
+}
+.actual-form{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+.input-field{
+  border-style: none;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  border-bottom: .1rem solid #000;
+
+transition: 0.4s;
+}
+
+ .input-field.pic {
+  border: none!important;
+  outline: none!important;
+}
+.gen{
+  margin-top: 1rem;
+}
+.sign-btn{
+  /* margin-top: 1rem;
+  position: absolute;
+  left: 50%;
+  margin-bottom: 1rem;
+  transform: translateX(-50%); */
+  display: inline-block;
+  width: 100%;
+  height: 43px;
+  background-color: #151111;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 0.8rem;
+  font-size: 0.8rem;
+  margin-bottom: 1rem;
+  transition: 0.3s;
+
+}
+.text{
+ margin-top: 1rem;
+}
+
+
+/* 
+form {
+  margin: 10% auto 0 auto;
+  padding: 30px;
+  width: 400px;
+  height: auto;
+  overflow: hidden;
+  background: white;
+  border-radius: 10px;
+}
+
+form label {
+  font-size: 14px;
+  color: darkgray;
+  cursor: pointer;
+}
+
+form label,
+form input {
+  float: left;
+  clear: both;
+}
+
+form input {
+  margin: 15px 0;
+  padding: 15px 10px;
+  width: 100%;
+  outline: none;
+  border: 1px solid #bbb;
+  border-radius: 20px;
+  display: inline-block;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: 0.2s ease all;
+  -moz-transition: 0.2s ease all;
+  -ms-transition: 0.2s ease all;
+  -o-transition: 0.2s ease all;
+  transition: 0.2s ease all;
+}
+
+form input[type="text"]:focus,
+form input[type="password"]:focus {
+  border-color: cornflowerblue;
+}
+
+input[type="submit"] {
+  padding: 15px 50px;
+  width: auto;
+  background: #1abc9c;
+  border: none;
+  color: white;
+  cursor: pointer;
+  display: inline-block;
+  float: right;
+  clear: right;
+  -webkit-transition: 0.2s ease all;
+  -moz-transition: 0.2s ease all;
+  -ms-transition: 0.2s ease all;
+  -o-transition: 0.2s ease all;
+  transition: 0.2s ease all;
+}
+
+input[type="submit"]:hover {
+  opacity: 0.8;
+}
+
+input[type="submit"]:active {
+  opacity: 0.4;
+}
+
+.forgot,
+.register {
+  margin: 10px;
+  float: left;
+  clear: left;
+  display: inline-block;
+  color: cornflowerblue;
+  text-decoration: none;
+}
+
+.forgot:hover,
+.register:hover {
+  color: darkgray;
+}
+
+#logo {
+  margin: 0 auto;
+  width: 200px;
+  font-family: "Lily Script One", cursive;
+  font-size: 60px;
+  font-weight: bold;
+  text-align: center;
+  color: lightgray;
+  -webkit-transition: 0.2s ease all;
+  -moz-transition: 0.2s ease all;
+  -ms-transition: 0.2s ease all;
+  -o-transition: 0.2s ease all;
+  transition: 0.2s ease all;
+}
+
+#logo:hover {
+  color: cornflowerblue;
+} */
